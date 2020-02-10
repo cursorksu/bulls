@@ -1,0 +1,133 @@
+body {
+  margin: 0; }
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+p {
+  margin: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0; }
+
+:focus,
+:active {
+  outline: none; }
+
+a,
+button {
+  cursor: pointer; }
+
+.body {
+  background-image: url(../images/cow.jpg);
+  background-position: left 40px top 40px;
+  background-repeat: no-repeat;
+  background-size: 260px;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center; }
+  @media (max-width: 1024px) {
+    .body {
+      background-position: center top 40px;
+      background-size: 160px;
+      font-size: 16px; } }
+
+.wrapper {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 200px 20px 20px; }
+  @media (max-width: 1024px) {
+    .wrapper {
+      max-width: 100%; } }
+
+.description {
+  font-style: italic;
+  font-size: 20px;
+  max-width: 80%;
+  margin: 20px auto; }
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px 0; }
+
+.flex__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.btn {
+  width: 100%;
+  display: block;
+  font-size: 22px;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+  background: #958760;
+  line-height: 50px;
+  -webkit-transition: background 0.3s linear;
+  transition: background 0.3s linear;
+  -ms-flex-preferred-size: 46%;
+      flex-basis: 46%;
+  white-space: nowrap;
+  margin-bottom: 20px; }
+  .btn:hover {
+    background: #545456; }
+  .btn:active, .btn:focus {
+    outline: none; }
+  .btn:disabled {
+    opacity: 0.3;
+    cursor: none; }
+  @media (max-width: 1024px) {
+    .btn {
+      line-height: 36px;
+      font-size: 16px; } }
+  @media (max-width: 400px) {
+    .btn {
+      -ms-flex-preferred-size: 70%;
+          flex-basis: 70%;
+      margin: 10px auto; } }
+
+.game__result {
+  margin-bottom: 20px; }
+
+.game__item {
+  line-height: 40px;
+  border-bottom: 1px dashed #545456; }
+  @media (max-width: 1024px) {
+    .game__item {
+      line-height: 36px;
+      font-size: 16px; } }
+
+.game__winn {
+  background: tomato;
+  color: #fff;
+  font-weight: bold; }
+
+.game__item span {
+  margin: auto; }
+
+.game__error {
+  background: rgba(84, 84, 86, 0.4); }
+
+/*# sourceMappingURL=styles.css.map */

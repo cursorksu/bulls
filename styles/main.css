@@ -1,0 +1,30 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background: #eee; }
+
+table {
+  border-collapse: collapse;
+  color: #118488;
+  background-color: white; }
+
+td,
+th {
+  border: 1px solid #118488;
+  padding: 10px;
+  text-align: center; }
+
+th {
+  font-weight: bold;
+  background-color: #fd5c63;
+  color: #fff; }
+
+/*# sourceMappingURL=main.css.map */
